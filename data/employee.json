@@ -1,0 +1,23 @@
+[
+    {
+        "employeeNumber": "A0004567",
+        "firstName": "James",
+        "lastName": "Brown",
+        "department": "Business",
+        "role": "Senior UX/UI Manager"
+    },
+    {
+        "employeeNumber": "A0004567",
+        "firstName": "Lisa",
+        "lastName": "Tran",
+        "department": "Business",
+        "role": "Junior Marketing Lead"
+    },
+    {
+        "employeeNumber": "A0004567",
+        "firstName": "John",
+        "lastName": "Le",
+        "department": "Business",
+        "role": "Senior Marketing Manager"
+    }
+]
