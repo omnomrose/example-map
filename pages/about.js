@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from '@next/font/google'
-import styles from '../styles/About.module.css'
+import styles from '../styles/about.module.css'
 import data from '../data/employee.json'
 import { useState } from 'react'
 import Card from '../components/Card/about.js'
