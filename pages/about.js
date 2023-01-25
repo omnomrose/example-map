@@ -4,7 +4,7 @@ import { Inter } from '@next/font/google'
 import styles from '@/styles/About.module.css'
 import data from '../data/employee.json'
 import { useState } from 'react'
-import Card from '@/components/Card/about.js'
+import Card from '@/components/Card/about'
 import Link from 'next/link'
 
 const inter = Inter({ subsets: ['latin'] })
