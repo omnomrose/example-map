@@ -1,23 +1,17 @@
 [
     {
-        "employeeNumber": "A0004567",
-        "firstName": "James",
-        "lastName": "Brown",
-        "department": "Business",
+        "lastName": "Denji Hayakawa",
+        "department": "business",
         "role": "Senior UX/UI Manager"
     },
     {
-        "employeeNumber": "A0004567",
-        "firstName": "Lisa",
-        "lastName": "Tran",
-        "department": "Business",
+        "lastName": "Aki Hayakawa",
+        "department": "business",
         "role": "Junior Marketing Lead"
     },
     {
-        "employeeNumber": "A0004567",
-        "firstName": "John",
-        "lastName": "Le",
-        "department": "Business",
+        "lastName": "Power Hayakawa",
+        "department": "business",
         "role": "Senior Marketing Manager"
     }
 ]

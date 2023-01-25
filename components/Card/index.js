@@ -1,15 +1,33 @@
+
 export default function Card({
     degree="none",
-    colour="purple",
-    font="0",
-    image="icon/personTwo.png"
+    colour= "none",
+    font="0",    
+    image="icon/computing.png"
 }) {
+    
     return (
-        <div style={{backgroundColor: colour, fontSize: font}}>
+        <div style={{
+            display: "flex",
+            flexDirection: "row",
+            justifyContent: "center",
+            alignItems: "center",
+            backgroundColor: colour,
+            borderRadius:"10px",
+            gap: "20px",
+            margin: "10px",
+            height: "200px",
+            width: "300px",
+            fontFamily: "Helvetica",
+            fontWeight: "bold",
+            textAlign: "center",
+            fontSize: "20px"
+            }}>
+
             {
-                colour === "red" ?    <img src={'icon/person.png'} width='50'/> :
-                colour === "blue" ?   <img src={'icon/personThree.png'} width='50'/> :
-                                    <img src={image} width='50'/>
+                degree === "#FFA69E" ? <img src={'icon/business.png'} width='100'/> :
+                degree === "#FFA69E" ? <img src={'icon/computing.png'} width='100'/> :
+                                        <img src={image} width='100'/>
             }
             {degree}
         </div>
